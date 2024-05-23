@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Plagins/1.0.0": {
+        "dependencies": {
+          "CatsClassLibrary": "1.0.0",
+          "Interface": "1.0.0",
+          "MeowClassLibrary": "1.0.0",
+          "PlusClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Plagins.dll": {}
+        }
+      },
+      "CatsClassLibrary/1.0.0": {
+        "dependencies": {
+          "Interface": "1.0.0"
+        },
+        "runtime": {
+          "CatsClassLibrary.dll": {}
+        }
+      },
+      "Interface/1.0.0": {
+        "runtime": {
+          "Interface.dll": {}
+        }
+      },
+      "MeowClassLibrary/1.0.0": {
+        "dependencies": {
+          "Interface": "1.0.0"
+        },
+        "runtime": {
+          "MeowClassLibrary.dll": {}
+        }
+      },
+      "PlusClassLibrary/1.0.0": {
+        "dependencies": {
+          "Interface": "1.0.0"
+        },
+        "runtime": {
+          "PlusClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Plagins/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CatsClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeowClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlusClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

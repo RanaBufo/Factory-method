@@ -1,0 +1,6 @@
+@MilaLaba_HostAddress = http://localhost:5131
+
+GET {{MilaLaba_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
